@@ -4,10 +4,12 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Taenia_vfinal_atlas_1", frames: [[0,0,1935,1292]]},
-		{name:"Taenia_vfinal_atlas_2", frames: [[880,1772,497,251],[0,765,625,189],[0,971,1743,135],[0,1519,707,251],[1379,1705,625,189],[0,1108,1743,135],[709,1519,592,251],[0,1245,1743,135],[1434,1382,551,321],[0,1382,1432,135],[0,1772,878,183],[769,595,1048,374],[0,0,767,763],[769,0,880,593]]},
-		{name:"Taenia_vfinal_atlas_3", frames: [[1253,1019,791,791],[0,0,1508,1017],[0,1019,1251,840]]},
-		{name:"Taenia_vfinal_atlas_4", frames: [[0,0,1545,1040]]},
-		{name:"Taenia_vfinal_atlas_5", frames: [[1764,237,237,66],[0,394,331,69],[1611,79,397,156],[1069,390,409,77],[627,79,490,173],[1480,390,409,77],[1119,79,490,173],[558,457,182,66],[1764,305,237,66],[333,457,223,66],[0,326,543,66],[1166,254,596,66],[0,0,625,189],[545,389,522,66],[0,191,581,133],[627,0,1305,77],[583,254,581,133],[1166,322,550,66]]}
+		{name:"Taenia_vfinal_atlas_2", frames: [[1799,0,237,66],[1658,175,331,69],[492,214,397,156],[0,254,409,77],[1307,0,490,173],[1069,446,409,77],[0,79,490,173],[891,214,182,66],[1799,68,237,66],[1075,79,223,66],[0,440,543,66],[801,378,596,66],[545,446,522,66],[492,79,581,133],[891,310,848,66],[0,372,799,66],[0,0,1305,77],[1075,175,581,133],[1399,378,550,66]]},
+		{name:"Taenia_vfinal_atlas_3", frames: [[1434,1361,497,251],[594,1827,625,189],[0,765,1743,135],[0,1504,707,251],[1262,1614,625,189],[0,902,1743,135],[0,1757,592,251],[1262,1805,625,189],[0,1039,1743,135],[709,1504,551,321],[0,1367,1432,135],[1076,1176,878,183],[0,1176,1074,189],[769,595,1048,127],[0,0,767,763],[769,0,880,593]]},
+		{name:"Taenia_vfinal_atlas_4", frames: [[1253,1019,791,791],[0,0,1508,1017],[0,1019,1251,840]]},
+		{name:"Taenia_vfinal_atlas_5", frames: [[0,0,1545,1040]]},
+		{name:"Taenia_vfinal_atlas_6", frames: [[0,0,1935,1292]]},
+		{name:"Taenia_vfinal_atlas_7", frames: [[0,0,1935,1292]]}
 ];
 
 
@@ -31,261 +33,296 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_194 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_193 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_192 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_191 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_190 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_189 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_188 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_187 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_186 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_185 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_184 = function() {
+(lib.CachedBmp_247 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_183 = function() {
+(lib.CachedBmp_246 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_182 = function() {
+(lib.CachedBmp_245 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_180 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_179 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_178 = function() {
+(lib.CachedBmp_244 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_177 = function() {
+(lib.CachedBmp_243 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_176 = function() {
+(lib.CachedBmp_242 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_174 = function() {
+(lib.CachedBmp_241 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_173 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_172 = function() {
+(lib.CachedBmp_240 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_170 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_169 = function() {
+(lib.CachedBmp_239 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_168 = function() {
+(lib.CachedBmp_238 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_166 = function() {
+(lib.CachedBmp_237 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_236 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_235 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_233 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_165 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_163 = function() {
+(lib.CachedBmp_232 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_162 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(15);
+(lib.CachedBmp_231 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_161 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(16);
+(lib.CachedBmp_230 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_201 = function() {
+(lib.CachedBmp_229 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_227 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_226 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_225 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_234 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_159 = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_5"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.gravid_proglottid = function() {
+(lib.CachedBmp_223 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.homeaiRisorse = function() {
+(lib.CachedBmp_222 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_221 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_251 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.immatureproglottid = function() {
+(lib.CachedBmp_219 = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_3"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.matureproglottid = function() {
+(lib.CachedBmp_218 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_2"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_216 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_2"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_215 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_2"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_214 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_213 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_212 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_2"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_211 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_2"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_250 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_6"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_209 = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_2"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.gravid_proglottid = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.homeaiRisorse = function() {
 	this.initialize(ss["Taenia_vfinal_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.immatureproglottid = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_4"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.matureproglottid = function() {
+	this.initialize(ss["Taenia_vfinal_atlas_5"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.scolex = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.initialize(ss["Taenia_vfinal_atlas_4"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.taenia_pisiformis_full = function() {
-	this.initialize(ss["Taenia_vfinal_atlas_2"]);
-	this.gotoAndStop(13);
+	this.initialize(ss["Taenia_vfinal_atlas_3"]);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -318,7 +355,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Livello_1
-	this.instance = new lib.CachedBmp_194();
+	this.instance = new lib.CachedBmp_247();
 	this.instance.setTransform(-118.7,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -340,22 +377,22 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Livello_1
-	this.instance = new lib.CachedBmp_189();
+	this.instance = new lib.CachedBmp_242();
 	this.instance.setTransform(-106.75,-20.9,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_188();
+	this.instance_1 = new lib.CachedBmp_241();
 	this.instance_1.setTransform(-123.6,-44.5,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_191();
+	this.instance_2 = new lib.CachedBmp_244();
 	this.instance_2.setTransform(-106.75,-20.9,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_190();
+	this.instance_3 = new lib.CachedBmp_243();
 	this.instance_3.setTransform(-123.6,-44.5,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_193();
+	this.instance_4 = new lib.CachedBmp_246();
 	this.instance_4.setTransform(-86.4,-18.8,0.5,0.5);
 
-	this.instance_5 = new lib.CachedBmp_192();
+	this.instance_5 = new lib.CachedBmp_245();
 	this.instance_5.setTransform(-100.5,-40.3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).to({state:[{t:this.instance_3},{t:this.instance_2}]},1).to({state:[{t:this.instance_5},{t:this.instance_4}]},1).wait(1));
@@ -401,7 +438,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Livello_1
-	this.instance = new lib.CachedBmp_187();
+	this.instance = new lib.CachedBmp_240();
 	this.instance.setTransform(-45.5,-16.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -450,7 +487,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Livello_1
-	this.instance = new lib.CachedBmp_186();
+	this.instance = new lib.CachedBmp_239();
 	this.instance.setTransform(-59.35,-16.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -517,7 +554,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Livello_1
-	this.instance = new lib.CachedBmp_185();
+	this.instance = new lib.CachedBmp_238();
 	this.instance.setTransform(-55.8,-16.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -833,7 +870,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.taenia_pisiformis_full();
 	this.instance.setTransform(-48.9,-20.45,0.0786,0.0786);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.scolaexback_bt}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.scolaexback_bt,p:{scaleX:0.6044,scaleY:0.6044}}]}).to({state:[{t:this.scolaexback_bt,p:{scaleX:0.56,scaleY:0.56}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -1308,33 +1345,51 @@ if (reversed == null) { reversed = false; }
 	this.txtGoodJob.setTransform(707.55,445.95);
 	this.txtGoodJob.alpha = 0;
 
-	this.instance = new lib.CachedBmp_159();
+	this.instance = new lib.CachedBmp_209();
 	this.instance.setTransform(651.75,388.2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.txtGoodJob},{t:this.hotSuckersR},{t:this.hotSuckersL}]},61).to({state:[]},30).wait(89));
 
 	// home
+	this.instance_1 = new lib.back4("synched",0);
+	this.instance_1.setTransform(142.75,594.35,0.6044,0.6044,0,0,0,0.1,0.1);
+
+	this.instance_2 = new lib.taenia_pisiformis_full();
+	this.instance_2.setTransform(70,573.85,0.0786,0.0786);
+
+	this.instance_3 = new lib.homeaiRisorse();
+	this.instance_3.setTransform(70,513,0.0697,0.0697);
+
+	this.instance_4 = new lib.CachedBmp_216();
+	this.instance_4.setTransform(32.2,577.75,0.5,0.5);
+
+	this.instance_5 = new lib.CachedBmp_215();
+	this.instance_5.setTransform(32.2,525.75,0.5,0.5);
+
+	this.instance_6 = new lib.CachedBmp_214();
+	this.instance_6.setTransform(389.35,304.15,0.5,0.5);
+
 	this.start_here_bt = new lib.starthere();
 	this.start_here_bt.name = "start_here_bt";
 	this.start_here_bt.setTransform(777.65,555.25);
 	new cjs.ButtonHelper(this.start_here_bt, 0, 1, 2);
 
-	this.instance_1 = new lib.CachedBmp_163();
-	this.instance_1.setTransform(389.35,220.1,0.5,0.5);
+	this.instance_7 = new lib.CachedBmp_213();
+	this.instance_7.setTransform(389.35,220.1,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_162();
-	this.instance_2.setTransform(53.4,100.1,0.5,0.5);
+	this.instance_8 = new lib.CachedBmp_212();
+	this.instance_8.setTransform(53.4,100.1,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_161();
-	this.instance_3.setTransform(45.4,33.85,0.5,0.5);
+	this.instance_9 = new lib.CachedBmp_211();
+	this.instance_9.setTransform(45.4,33.85,0.5,0.5);
 
-	this.instance_4 = new lib.taenia_pisiformis_full();
-	this.instance_4.setTransform(-12,207,0.4152,0.4152);
+	this.instance_10 = new lib.taenia_pisiformis_full();
+	this.instance_10.setTransform(-12,207,0.4152,0.4152);
 
-	this.instance_5 = new lib.CachedBmp_201();
-	this.instance_5.setTransform(-5,-2.5,0.5,0.5);
+	this.instance_11 = new lib.CachedBmp_250();
+	this.instance_11.setTransform(-5,-2.5,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.start_here_bt}]}).to({state:[]},29).to({state:[]},1).wait(150));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.start_here_bt},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]}).to({state:[]},29).to({state:[]},1).wait(150));
 
 	// worm
 	this.gomature_bt = new lib.gomature();
@@ -1362,16 +1417,16 @@ if (reversed == null) { reversed = false; }
 	this.backhome1_bt.setTransform(61.1,615.1);
 	new cjs.ButtonHelper(this.backhome1_bt, 0, 1, 1);
 
-	this.instance_6 = new lib.CachedBmp_165();
-	this.instance_6.setTransform(45.4,33.85,0.5,0.5);
+	this.instance_12 = new lib.CachedBmp_218();
+	this.instance_12.setTransform(45.4,33.85,0.5,0.5);
 
-	this.instance_7 = new lib.taenia_pisiformis_full();
-	this.instance_7.setTransform(73,81,0.8973,0.8973);
+	this.instance_13 = new lib.taenia_pisiformis_full();
+	this.instance_13.setTransform(73,81,0.8973,0.8973);
 
-	this.instance_8 = new lib.CachedBmp_201();
-	this.instance_8.setTransform(-5,-2.5,0.5,0.5);
+	this.instance_14 = new lib.CachedBmp_250();
+	this.instance_14.setTransform(-5,-2.5,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.backhome1_bt},{t:this.goscolex_bt},{t:this.goimmature_bt},{t:this.gogravid_bt},{t:this.gomature_bt}]},29).to({state:[]},30).to({state:[]},1).wait(120));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.backhome1_bt},{t:this.goscolex_bt},{t:this.goimmature_bt},{t:this.gogravid_bt},{t:this.gomature_bt}]},29).to({state:[]},30).to({state:[]},1).wait(120));
 
 	// scolex
 	this.hotHooks = new lib.hotHooks_mc();
@@ -1383,8 +1438,8 @@ if (reversed == null) { reversed = false; }
 	this.txtWellDone.setTransform(710.55,328.1,1,1,0,0,0,-59.4,16.4);
 	this.txtWellDone.alpha = 0;
 
-	this.instance_9 = new lib.CachedBmp_170();
-	this.instance_9.setTransform(651.25,278.85,0.5,0.5);
+	this.instance_15 = new lib.CachedBmp_223();
+	this.instance_15.setTransform(651.25,278.85,0.5,0.5);
 
 	this.scolaexback_bt = new lib.scolaexback();
 	this.scolaexback_bt.name = "scolaexback_bt";
@@ -1396,26 +1451,26 @@ if (reversed == null) { reversed = false; }
 	this.backhome2_bt.setTransform(61.1,615.1);
 	new cjs.ButtonHelper(this.backhome2_bt, 0, 1, 1);
 
-	this.instance_10 = new lib.back4();
-	this.instance_10.setTransform(912.75,594.5,0.6044,0.6044,0,0,0,0.1,0.1);
-	new cjs.ButtonHelper(this.instance_10, 0, 1, 1);
+	this.instance_16 = new lib.back4();
+	this.instance_16.setTransform(912.75,594.5,0.6044,0.6044,0,0,0,0.1,0.1);
+	new cjs.ButtonHelper(this.instance_16, 0, 1, 1);
 
-	this.instance_11 = new lib.CachedBmp_169();
-	this.instance_11.setTransform(651.3,111,0.5,0.5);
+	this.instance_17 = new lib.CachedBmp_222();
+	this.instance_17.setTransform(651.3,111,0.5,0.5);
 
-	this.instance_12 = new lib.scolex();
-	this.instance_12.setTransform(-98,107,0.5672,0.5672);
+	this.instance_18 = new lib.scolex();
+	this.instance_18.setTransform(-98,107,0.5672,0.5672);
 
-	this.instance_13 = new lib.CachedBmp_168();
-	this.instance_13.setTransform(45.4,33.85,0.5,0.5);
+	this.instance_19 = new lib.CachedBmp_221();
+	this.instance_19.setTransform(45.4,33.85,0.5,0.5);
 
-	this.instance_14 = new lib.CachedBmp_201();
-	this.instance_14.setTransform(-2.5,-3.7,0.5,0.5);
+	this.instance_20 = new lib.CachedBmp_251();
+	this.instance_20.setTransform(-2.5,-3.7,0.5,0.5);
 
-	this.instance_15 = new lib.CachedBmp_166();
-	this.instance_15.setTransform(451.3,447.9,0.5,0.5);
+	this.instance_21 = new lib.CachedBmp_219();
+	this.instance_21.setTransform(451.3,447.9,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.backhome2_bt},{t:this.scolaexback_bt},{t:this.instance_9},{t:this.txtWellDone},{t:this.hotHooks}]},59).to({state:[]},30).to({state:[]},1).wait(90));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_21},{t:this.instance_20},{t:this.instance_19},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16},{t:this.backhome2_bt},{t:this.scolaexback_bt},{t:this.instance_15},{t:this.txtWellDone},{t:this.hotHooks}]},59).to({state:[]},30).to({state:[]},1).wait(90));
 
 	// immature
 	this.immatureback_bt = new lib.immatureback();
@@ -1428,22 +1483,22 @@ if (reversed == null) { reversed = false; }
 	this.immaturehome_bt.setTransform(61.1,615.1);
 	new cjs.ButtonHelper(this.immaturehome_bt, 0, 1, 1);
 
-	this.instance_16 = new lib.CachedBmp_174();
-	this.instance_16.setTransform(618.15,251.55,0.5,0.5);
+	this.instance_22 = new lib.CachedBmp_227();
+	this.instance_22.setTransform(618.15,251.55,0.5,0.5);
 
-	this.instance_17 = new lib.CachedBmp_173();
-	this.instance_17.setTransform(615.85,129.85,0.5,0.5);
+	this.instance_23 = new lib.CachedBmp_226();
+	this.instance_23.setTransform(615.85,129.85,0.5,0.5);
 
-	this.instance_18 = new lib.immatureproglottid();
-	this.instance_18.setTransform(-120,117,0.461,0.461);
+	this.instance_24 = new lib.immatureproglottid();
+	this.instance_24.setTransform(-120,117,0.461,0.461);
 
-	this.instance_19 = new lib.CachedBmp_172();
-	this.instance_19.setTransform(45.4,33.85,0.5,0.5);
+	this.instance_25 = new lib.CachedBmp_225();
+	this.instance_25.setTransform(45.4,33.85,0.5,0.5);
 
-	this.instance_20 = new lib.CachedBmp_201();
-	this.instance_20.setTransform(-2.5,-2.5,0.5,0.5);
+	this.instance_26 = new lib.CachedBmp_234();
+	this.instance_26.setTransform(-2.5,-2.5,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_20},{t:this.instance_19},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16},{t:this.immaturehome_bt},{t:this.immatureback_bt}]},89).to({state:[]},30).to({state:[]},1).wait(60));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_26},{t:this.instance_25},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22},{t:this.immaturehome_bt},{t:this.immatureback_bt}]},89).to({state:[]},30).to({state:[]},1).wait(60));
 
 	// mature
 	this.hotQ5_1 = new lib.Simbolo7();
@@ -1464,11 +1519,11 @@ if (reversed == null) { reversed = false; }
 	this.txtAnswerQ3.setTransform(675.95,413.45);
 	this.txtAnswerQ3.alpha = 0;
 
-	this.instance_21 = new lib.CachedBmp_180();
-	this.instance_21.setTransform(616.6,456.15,0.5,0.5);
+	this.instance_27 = new lib.CachedBmp_233();
+	this.instance_27.setTransform(616.6,456.15,0.5,0.5);
 
-	this.instance_22 = new lib.CachedBmp_179();
-	this.instance_22.setTransform(616.6,364.2,0.5,0.5);
+	this.instance_28 = new lib.CachedBmp_232();
+	this.instance_28.setTransform(616.6,364.2,0.5,0.5);
 
 	this.matureback_bt = new lib.matureback();
 	this.matureback_bt.name = "matureback_bt";
@@ -1480,22 +1535,22 @@ if (reversed == null) { reversed = false; }
 	this.maturehome_bt.setTransform(61.1,615.1);
 	new cjs.ButtonHelper(this.maturehome_bt, 0, 1, 1);
 
-	this.instance_23 = new lib.CachedBmp_178();
-	this.instance_23.setTransform(617.1,238.3,0.5,0.5);
+	this.instance_29 = new lib.CachedBmp_231();
+	this.instance_29.setTransform(617.1,238.3,0.5,0.5);
 
-	this.instance_24 = new lib.matureproglottid();
-	this.instance_24.setTransform(-45,130,0.415,0.415);
+	this.instance_30 = new lib.matureproglottid();
+	this.instance_30.setTransform(-45,130,0.415,0.415);
 
-	this.instance_25 = new lib.CachedBmp_177();
-	this.instance_25.setTransform(617.1,130,0.5,0.5);
+	this.instance_31 = new lib.CachedBmp_230();
+	this.instance_31.setTransform(617.1,130,0.5,0.5);
 
-	this.instance_26 = new lib.CachedBmp_176();
-	this.instance_26.setTransform(45.4,33.85,0.5,0.5);
+	this.instance_32 = new lib.CachedBmp_229();
+	this.instance_32.setTransform(45.4,33.85,0.5,0.5);
 
-	this.instance_27 = new lib.CachedBmp_201();
-	this.instance_27.setTransform(-2.5,-3.7,0.5,0.5);
+	this.instance_33 = new lib.CachedBmp_234();
+	this.instance_33.setTransform(-2.5,-3.7,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24},{t:this.instance_23},{t:this.maturehome_bt},{t:this.matureback_bt},{t:this.instance_22},{t:this.instance_21},{t:this.txtAnswerQ3},{t:this.hotQ3_1},{t:this.txtAnswerQ5},{t:this.hotQ5_1}]},119).to({state:[]},30).to({state:[]},1).wait(30));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_33},{t:this.instance_32},{t:this.instance_31},{t:this.instance_30},{t:this.instance_29},{t:this.maturehome_bt},{t:this.matureback_bt},{t:this.instance_28},{t:this.instance_27},{t:this.txtAnswerQ3},{t:this.hotQ3_1},{t:this.txtAnswerQ5},{t:this.hotQ5_1}]},119).to({state:[]},30).to({state:[]},1).wait(30));
 
 	// gravid
 	this.gravidback_bt = new lib.gravidback();
@@ -1508,22 +1563,22 @@ if (reversed == null) { reversed = false; }
 	this.gravidhome_bt.setTransform(61.1,615.1);
 	new cjs.ButtonHelper(this.gravidhome_bt, 0, 1, 1);
 
-	this.instance_28 = new lib.CachedBmp_184();
-	this.instance_28.setTransform(615.85,269.75,0.5,0.5);
+	this.instance_34 = new lib.CachedBmp_237();
+	this.instance_34.setTransform(615.85,269.75,0.5,0.5);
 
-	this.instance_29 = new lib.gravid_proglottid();
-	this.instance_29.setTransform(35,118,0.6502,0.6502);
+	this.instance_35 = new lib.gravid_proglottid();
+	this.instance_35.setTransform(35,118,0.6502,0.6502);
 
-	this.instance_30 = new lib.CachedBmp_183();
-	this.instance_30.setTransform(615.85,129.85,0.5,0.5);
+	this.instance_36 = new lib.CachedBmp_236();
+	this.instance_36.setTransform(615.85,129.85,0.5,0.5);
 
-	this.instance_31 = new lib.CachedBmp_182();
-	this.instance_31.setTransform(45.4,33.85,0.5,0.5);
+	this.instance_37 = new lib.CachedBmp_235();
+	this.instance_37.setTransform(45.4,33.85,0.5,0.5);
 
-	this.instance_32 = new lib.CachedBmp_201();
-	this.instance_32.setTransform(-2.5,-2.5,0.5,0.5);
+	this.instance_38 = new lib.CachedBmp_234();
+	this.instance_38.setTransform(-2.5,-2.5,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_32},{t:this.instance_31},{t:this.instance_30},{t:this.instance_29},{t:this.instance_28},{t:this.gravidhome_bt},{t:this.gravidback_bt}]},149).to({state:[]},30).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_38},{t:this.instance_37},{t:this.instance_36},{t:this.instance_35},{t:this.instance_34},{t:this.gravidhome_bt},{t:this.gravidback_bt}]},149).to({state:[]},30).wait(1));
 
 	this._renderFirstFrame();
 
@@ -1538,11 +1593,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Taenia_vfinal_atlas_1.png", id:"Taenia_vfinal_atlas_1"},
-		{src:"images/Taenia_vfinal_atlas_2.png", id:"Taenia_vfinal_atlas_2"},
-		{src:"images/Taenia_vfinal_atlas_3.png", id:"Taenia_vfinal_atlas_3"},
-		{src:"images/Taenia_vfinal_atlas_4.png", id:"Taenia_vfinal_atlas_4"},
-		{src:"images/Taenia_vfinal_atlas_5.png", id:"Taenia_vfinal_atlas_5"}
+		{src:"images/Taenia_vfinal_atlas_1.png?1754955138575", id:"Taenia_vfinal_atlas_1"},
+		{src:"images/Taenia_vfinal_atlas_2.png?1754955138575", id:"Taenia_vfinal_atlas_2"},
+		{src:"images/Taenia_vfinal_atlas_3.png?1754955138576", id:"Taenia_vfinal_atlas_3"},
+		{src:"images/Taenia_vfinal_atlas_4.png?1754955138576", id:"Taenia_vfinal_atlas_4"},
+		{src:"images/Taenia_vfinal_atlas_5.png?1754955138576", id:"Taenia_vfinal_atlas_5"},
+		{src:"images/Taenia_vfinal_atlas_6.png?1754955138576", id:"Taenia_vfinal_atlas_6"},
+		{src:"images/Taenia_vfinal_atlas_7.png?1754955138576", id:"Taenia_vfinal_atlas_7"}
 	],
 	preloads: []
 };
